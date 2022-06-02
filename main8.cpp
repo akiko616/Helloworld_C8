@@ -131,11 +131,14 @@ int main()
 	switch(a)
 	{
 	case 0:
+		__fallthrough;
 	case 1:
+		__fallthrough;
 	case 3:
 		cout << "남자" << endl;
 		break;
 	case 2:
+		__fallthrough;
 	case 4:
 		cout << "여자" << endl;
 		break;
